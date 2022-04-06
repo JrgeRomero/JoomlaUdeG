@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="utf-8">
+    <title>Integración BV mediante JavaScript y jQuery</title>
+</head>
+<body>
+
+
+	<!--<button onclick="return GetUrlBV()">Get URL</button>-->
+
+
+    <!-- Esta ruta de script debe de ser la carpeta donde se encuentren los archivos .js de jQuery-->
+    <script src="Scripts/jquery-2.1.1.js"></script>
+    <script type="text/javascript">
+
+        var un; //Nombre del usuario codificado.
+        var ul1; //Apellido paterno del usuario codificado.
+        var ul2; //Apellido materno del usuario codificado.
+        var ue; //Correo electrÃ³nico del usuario codificado.
+        var ui; //DirecciÃ³n IP del usuario codificada.
+        var i; //ID de la instituciÃ³n en la base de datos de Pearson (entero)
+        var ic; //ID del campus de la instituciÃ³n en la base de datos de Pearson (entero)
+        var ik; //InstituciÃ³n Key en la base de datos de Pearson (entero)
+        var res;
+        var urlInitial="";
+
+        var attemptCount = 0;
+        GetUrlBV();
+
+        function GetUrlBV() {
+            un = "Universidad de Guadalajara";
+            ul1 = "Biblioteca Digital";
+            ul2 = "";
+            ue = "bibliotecadigital@redudg.udg.mx";
+            ui = "";
+            i = "238";
+            ic = "";
+            ik = "cuc34udg2105";
+            res = "";
+
+            GetURLPage();
+        };
+
+        function GetURLPage() {
+
+             urlInitial = "https://www.biblionline.pearson.com/Services/GenerateURLAccess.svc/GetUrl?firstname=" + un + "&lastname1=" + ul1 + "&lastname2=" + ul2 + "&email=" + ue + "&ip=" + ui + "&idInstitution=" + i + "&idCampus=" + ic + "&institutionKey=" + ik + "&$callback=successCall&$format=json";
+            $.ajax({
+                dataType: "jsonp",
+                contentType: "application/json; charset=utf-8",
+                url: urlInitial,
+                jsonpCallback: "successCall",
+                error: function () {
+                	if(attemptCount == 0){
+                		attemptCount++;
+                		GetURLPage();
+                	}
+                    else{
+                    	alert("Error");
+                    }
+                },
+                success: successCall
+            });
+
+            function parseJSON(jsonData) {
+
+                return jsonData.Message;
+
+            }
+
+
+            function successCall(result) {
+
+                res = parseJSON(result.GetUrlAccessResult);
+                location.replace(res); //Redirecciona a la pÃ¡gina de la BV.
+                //document.getElementById("lnkUrl").href = res; //Establece la URL de un hipervÃ­nculo en la pÃ¡gina.
+                //document.getElementById("txtUrlResult").value = res; //Establece el valor de un elemento oculto con el texto de la URL generada.
+                //document.getElementById("txtUrl").innerHTML = res; //Muestra el texto de la URL generada.
+            }
+        };
+
+    </script>
+   <!-- <input type="hidden" id="txtUrlResult"/>
+	    <a id="lnkUrl">Link</a>
+	<p id="txtUrl"/> -->
+</body>
+</html>

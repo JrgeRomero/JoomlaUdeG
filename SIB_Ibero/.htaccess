@@ -1,0 +1,17 @@
+<Limit GET>
+order allow,deny
+# Ibero Máquina trabajadores y registro de credenciales
+#allow from 148.202.176.231
+allow from 207.249.244.26
+# Ibero Máquina scanner y estadísticas SIB Ibero
+#allow from 148.202.176.232
+allow from 207.249.244.27
+# Ibero Máquina Maestra Caro
+#allow from 148.202.176.233
+# Ibero Máquina Oscar
+#allow from 148.202.176.234
+# Coordinación Bibliotecas Juan
+allow from 148.202.195.108
+# Coordinación Bibliotecas Goretti
+allow from 148.202.195.101
+</Limit>

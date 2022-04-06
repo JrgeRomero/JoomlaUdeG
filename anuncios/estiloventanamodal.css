@@ -1,0 +1,113 @@
+*{
+	font-family:'Arial';
+	padding:0;
+	margin:0;
+}
+
+a.open{
+	background-color: #414141;
+	border-radius: 5px;
+	color: #FFF;
+	font-size:1.5em;
+	margin:20px;
+	padding: 10px 20px;
+	position:absolute;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #000;
+	-moz-transition: background-color 1s;
+	transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+
+a.open:hover{
+	background-color: #111;
+}
+
+section.fondo{
+	position: fixed;
+	z-index:10000000000
+}
+
+.background{
+	opacity:0.6;
+	width: 100%;
+	heigth: 100%;
+	z-index:10000000000;
+}
+
+section.modalDialog{
+	background-color: rbga(0,0,0,0.5);
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	position: fixed;
+	z-index:10000000000;
+	-moz-transition: opacity 1s;
+	transition: opacity 1s;
+	-webkit-transition: opacity 1s;
+}
+
+section.modalDialog:target{
+	opacity:1;
+}
+
+a.close{
+	background-color: #414141;
+	border-radius: 40px;
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 22px;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 28px;
+	opacity:1;
+}
+
+a.close{
+	background-color: #990000;
+}
+
+section.modal{
+	background-color: #E9C074;
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 20px;
+	color: #663300;
+	margin: 10% auto;
+	padding: 20px;
+	position: relative;
+	width: 350px;
+}
+
+.h2pub{
+	color: #663300;
+	font-size: 2em;
+	margin-bottom: 10px;
+}
+
+.h1pub{
+	color: #663300;
+	font-size: 1.2em;
+}
+
+.ppub{
+	color: #663300;
+	font-size:1em;
+}
+
+a.enlace{
+	color:#0066FF;
+	font-weight: bold;
+	//text-decoration: none;
+}
+
+.imagen {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #663300;
+}

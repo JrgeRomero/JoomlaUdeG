@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="anuncios/estiloventanamodal.css">
+<div class="contenedor">
+	<!--<a href="#openmodal" class="open">Abrir Ventana Aviso</a>-->
+	<section id="imgfondo" class="fondo">
+		<img src="anuncios/background.png" class="background">
+		<section id="openmodal" class="modalDialog">
+			<section class="modal">
+				<a href="#close" class="close" onClick="ocultaPublicidad();" title="Cerrar aviso">X</a>
+				<h2 class="h2pub">Entre Pares: 5&ordm; Aniversario</h2>
+				<p class="h1pub"><b>Publicar y navegar en redes de informaci&oacute;n cient&iacute;fica.</b></p>
+				<a class="enlace" href="http://entrepares.conricyt.mx/" target="_blank"><img class="imagen" src="anuncios/entreparesimg1.jpg" width="350px" title="Ir a Entre Pares" ></a>
+				<p class="ppub"><br>&iexcl;La quinta edici&oacute;n de Entre Pares se acerca!, ser&aacute; los pr&oacute;ximos 5 y 6 de Septiembre.</p>
+				<a class="enlace" href="http://entrepares.conricyt.mx/" title="Ir a Entre Pares" target="_blank">M&aacute;s informaci&oacute;n aqu&iacute;...</a>
+			</section>
+		</section>
+	</section>
+	<Script languaje="JavaScript">
+		var URLactual = window.location.pathname;
+		//alert(URLactual);
+
+		function ocultaPublicidad(){
+			document.getElementById('openmodal').style.display = "none";
+			document.getElementById('imgfondo').style.display = "none";
+		}
+				
+		if((URLactual == "/index.php") || (URLactual == "/")){
+			location = "#openmodal";
+		}
+		else{
+			location = "#close";
+			ocultaPublicidad();
+		}
+	</Script>
+</div>

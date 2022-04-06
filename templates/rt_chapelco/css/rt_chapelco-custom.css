@@ -1,0 +1,1444 @@
+/* Ã‰ste archivo sirve para modificar el diseÃ±o de la plantilla Chapelco de la nueva 
+   Biblioteca Digital 2021*/
+p{
+	font-size:15px;
+}
+
+/*Cambiar el color del top*/ 
+#rt-top{
+    //background-image: url("/chapelco-prueba/images/banner-top.png");
+    background-size: 100% 100%;
+}
+
+/*desaparecer el top y el header del template*/
+.quitarheader{
+    display:none;
+}
+
+/*ajustar la página cuándo aparece el header dinámico*/
+.ajustarbanner{
+    margin-top:300px;
+}
+
+#rt-header, #rt-top {
+    background-color: #033A61;
+}
+
+.moverlogowdg {
+    margin-top: -20px;
+}
+
+.movertituloBD{
+    margin-top: -20px;
+    margin-bottom: -20px;
+
+}
+
+/*.ModAjax{
+    top: 20px; 
+}*/
+
+.btn-link{
+    color: black;
+}
+
+.btn-link-tema{
+    color: black;
+    text-decoration:none;
+}
+
+
+.btn-link-tema:hover{
+    color: black;
+    text-decoration:none;
+}
+
+
+/*Cambiar el color y otros atributos de los menus individualmente---------*/
+
+/*Capitalizar y personalizar los titulos de los menus*/
+.gf-menu.l1 > li > .item {
+    font-family: "Arial";
+    font-size: 13px;
+    color: white;
+    /*font-weight: bold;*/
+    text-transform: none;
+    text-shadow: 0px 0px 0px #ffffff;
+    padding: 12px 20px 8px;
+}
+
+.gf-menu.l1 li.active > .item{
+	height: 16px;
+}
+
+/*Cambiar letra de todos los submenus*/
+.gf-menu .item{
+    font-family: "Arial";
+    font-size: 13px;
+}
+
+@media screen and (min-width:479px) and (max-width:1200px){
+	.gf-menu.l1 > li > .item{
+		height: 48px;
+	}
+	.gf-menu.l1 li.active > .item{
+		height: 40px;
+	}
+}
+
+/*Principal menu*/
+.gf-menu.l1 .item101 {
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #edeef0;*/
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E6E6E6),
+	color-stop(1, #808080)
+    );
+    background-image: -o-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -moz-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -webkit-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -ms-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: linear-gradient(to bottom, #E6E6E6 0%, #808080 100%);*/
+	width: 14%;
+}
+
+.gf-menu.l1 > li.item101 > .item {
+	font-weight: bold;
+	color: #033A61;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Cambiar el color de un menu activo*/
+
+/*Principal*/
+.gf-menu.l1 li.item101.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+/*Recursos Informativos*/
+.gf-menu.l1 li.item108.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+.gf-menu.l1 li.item108.active:hover > .item::before{
+    width: 100%;
+    z-index:-1;
+    background-image: none;
+    background-color: #C40000;
+    -webkit-transition: background-color 1.0s;
+    -moz-transition: background-color 1.0s;
+    -o-transition: background-color 1.0s;
+    transition: background-color 1.0s;
+}
+
+/*Repositorio Institucional*/
+.gf-menu.l1 li.item162.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+.gf-menu.l1 li.item162.active:hover > .item::before{
+    width: 100%;
+    z-index:-1;
+    background-image: none;
+    background-color: #177509;
+    -webkit-transition: background-color 1.0s;
+    -moz-transition: background-color 1.0s;
+    -o-transition: background-color 1.0s;
+    transition: background-color 1.0s;
+}
+
+/*Catalogos en línea*/
+.gf-menu.l1 li.item117.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+.gf-menu.l1 li.item117.active:hover > .item::before{
+    width: 100%;
+    z-index:-1;
+    background-image: none;
+    background-color: #006FFF;
+    -webkit-transition: background-color 1.0s;
+    -moz-transition: background-color 1.0s;
+    -o-transition: background-color 1.0s;
+    transition: background-color 1.0s;
+}
+
+/*Herramientas*/
+.gf-menu.l1 li.item118.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+.gf-menu.l1 li.item118.active:hover > .item::before{
+    width: 100%;
+    z-index:-1;
+    background-image: none;
+    background-color: #EEB292;
+    -webkit-transition: background-color 1.0s;
+    -moz-transition: background-color 1.0s;
+    -o-transition: background-color 1.0s;
+    transition: background-color 1.0s;
+}
+
+/*Servicios Bibliotecarios*/
+.gf-menu.l1 li.item140.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}
+
+.gf-menu.l1 li.item140.active:hover > .item::before{
+    width: 100%;
+    z-index:-1;
+    background-image: none;
+    background-color: #8109B5;
+    -webkit-transition: background-color 1.0s;
+    -moz-transition: background-color 1.0s;
+    -o-transition: background-color 1.0s;
+    transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.active > .item{
+	padding-bottom: 15px;
+}
+
+/*Fin Colores Menus activos*/
+
+/*Recursos Informativos menu(Antes: Bases de Datos)*/
+.gf-menu.l1 .item108{
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FA031C),
+	color-stop(1, #640409)
+    );
+    background-image: -o-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -moz-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -webkit-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -ms-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: linear-gradient(to bottom, #FA031C 0%, #640409 100%);*/
+	width: 18%;
+}
+
+.gf-menu.l1 .item108:hover{
+	background-color: #C40000;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.item108 > .item {
+	font-weight: bold;
+	color: #C40000;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.gf-menu.l1 > li.item108 > a.item:hover {
+	color: #FFF;
+}
+
+/*Recursos Informativos submenus (Antes: Bases de Datos)*/
+.gf-menu.l1 .item108 ul{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;*/ 
+    background-color: #EDD3D3;
+}
+
+/*Repositorio Institucional menu(Antes: Colecciones electrónicas)*/
+.gf-menu.l1 .item114{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #B8D3B5;
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #6CCF4F),
+	color-stop(1, #376B33)
+    );
+    background-image: -o-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -moz-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -webkit-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -ms-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: linear-gradient(to bottom, #6CCF4F 0%, #376B33 100%);*/
+	width: 18%;
+}
+
+.gf-menu.l1 .item114:hover{
+	background-color: #177509;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.item114 > .item {
+	font-weight: bold;
+	color: #177509;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Repositorio Institucional menu(Antes: Colecciones electrónicas) no registrado*/
+.gf-menu.l1 .item162{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #B8D3B5;*/
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #6CCF4F),
+	color-stop(1, #376B33)
+    );
+    background-image: -o-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -moz-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -webkit-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -ms-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: linear-gradient(to bottom, #6CCF4F 0%, #376B33 100%);*/
+	width: 18%;
+
+}
+
+.gf-menu.l1 .item162:hover{
+	background-color: #177509;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+
+.gf-menu.l1 > li.item162 > .item {
+	font-weight: bold;
+	color: #177509;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*Catálogos en línea menu*/
+.gf-menu.l1 .item117{
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #1B9BD1),
+	color-stop(1, #15638A)
+    );
+    background-image: -o-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -moz-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -webkit-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -ms-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: linear-gradient(to bottom, #1B9BD1 0%, #15638A 100%);*/
+	width: 16%;
+}
+
+.gf-menu.l1 .item117:hover{
+	background-color: #006FFF;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.item117 > .item {
+	font-weight: bold;
+	color: #006FFF;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+/*Catálogos en línea submenus*/
+.gf-menu.l1 .item117 ul{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;*/
+    background-color: #ABCADB;
+}
+
+/*Herramientas menu*/
+.gf-menu.l1 .item118{
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #B57021),
+	color-stop(1, #784A16)
+    );
+    background-image: -o-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -moz-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -webkit-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -ms-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: linear-gradient(to bottom, #B57021 0%, #784A16 100%);*/
+	width: 16%;
+}
+
+.gf-menu.l1 .item118:hover{
+	//background-color: #DEAE10;
+	//background-color: #61380B;
+        //background-color: #824709;
+        //background-color: #853D01;
+          background-color: #EEB292;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.item118 > .item {
+	font-weight: bold;
+	//color: #DEAE10;
+        //color: #61380B;
+        //color: #824709;
+        //color: #853D01;
+          color: #EEB292;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Herramientas submenus*/
+.gf-menu.l1 .item118 ul{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;*/
+ // background-color: #E0DBCF;*/
+ // background-color: #61380B;
+ // background-color: #824709;
+ // background-color: #853D01;
+    background-color: #EEB292;
+}
+
+/*Servicios Bibliotecarios menu*/
+.gf-menu.l1 .item140{
+    /*background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9980BF),
+	color-stop(1, #4C3175)
+    );
+    background-image: -o-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -moz-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -webkit-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -ms-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: linear-gradient(to bottom, #9980BF 0%, #4C3175 100%);*/
+	width: 18%;
+}
+
+.gf-menu.l1 .item140:hover{
+	background-color: #8109B5;
+	-webkit-transition: background-color 1.0s;
+	-moz-transition: background-color 1.0s;
+	-o-transition: background-color 1.0s;
+	transition: background-color 1.0s;
+}
+
+.gf-menu.l1 > li.item140 > .item {
+	font-weight: bold;
+	color: #8109B5;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*Servicios Bibliotecarios submenus*/
+.gf-menu.l1 .item140 ul{
+    /*font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;*/
+    background-color: #CACCED;
+}
+
+/*Cambiar color y otros atributos de los títulos en las diversas secciones-------------------------------------*/
+.colortitulos-prin .title{
+    color: #033A61;
+}
+
+.colortitulos-ri .title{
+    color: #C40000;
+}
+
+.iconoespecializadas .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/especializadas.png");
+    background-position:400px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconolibrose .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/libroselectronicos.png");
+    background-position:250px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconorevistase .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/revistaselectronicas.png");
+    background-position:290px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconomulti .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/multidisciplinarias.png");
+    background-position:450px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconoobrascon .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/obrascon.png");
+    background-position:240px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconorecesp .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/recesp.png");
+    background-position:260px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconoreclib .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/libres.png");
+    background-position:210px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+.iconorecprueba .title{
+    margin-top:-15px;
+    background-image:url("/chapelco-prueba/images/encabezados/prueba.png");
+    background-position:310px 0px;
+    background-repeat:no-repeat;
+    padding-top:20px;
+}
+
+
+
+.colortitulos-repo .title{
+    color: #2D5C21;
+}
+
+.colortitulos-cl .title{
+    color: #006FFF;
+}
+
+.colortitulos-herr .title{
+  //color: #DEAE10; */
+  //color: #61380B;
+  //color: #824709;
+  //color: #853D01;
+    color: #A43D06;
+}
+
+.colortitulos-sb .title{
+    color: #8109B5;
+}
+
+.colortitulos-twi{
+    color: #033A61;
+}
+
+.colortitulos-cont .title{
+    font-size:26px;
+}
+
+.colortitulos-ubi .title{
+    font-size:26px;
+}
+
+
+
+.title{
+    font-weight:bold;
+}
+
+.rt-center {
+    font-familiy:"Verdana";
+}
+
+
+/*Hacer más pequeño el alto de la sección de redes sociales-----------------------------------*/
+#rt-feature{
+    padding:0px 0px 0px;
+    margin-bottom: -40px;
+    margin-top: -40px;
+}
+
+.rt-grid-2{
+    /*height:30px;*/
+}
+
+
+/*Ocultar Submenus de MENUS y acomodar capas------------------------*/
+
+/*Submenus del Menu Recursos Informativos*/
+.gf-menu .item108 .dropdown{
+    z-index:-1;
+}
+
+/*Submenus del Menu Repositorio Institucional*/
+.gf-menu .item114 .dropdown{
+    z-index:-1;
+}
+
+/*Submenus del Menu Repositorio Institucional no registrado*/
+.gf-menu .item162 .dropdown{
+    z-index:-1;
+}
+
+
+/*Submenus del Menu Catálogos en Línea*/
+.gf-menu .item117 .dropdown{
+    z-index:-1;
+}
+
+
+/*Submenus del Menu Herramientas*/
+.gf-menu .item118 .dropdown{
+    z-index:-1;
+}
+
+/*Submenus del Menu Servicios bibliotecarios*/
+.gf-menu .item140 .dropdown{
+    z-index:-1;
+}
+
+/*Menu Condiciones de Uso*/
+.gf-menu .item151{
+    display: none;
+}
+
+/*Menu Página Acceso*/
+.gf-menu .item161{
+    display: none;
+}
+
+/*Ocultar menu Directorio*/
+.gf-menu .item165{
+    display: none;
+}
+
+/*Ocultar menu Catalogo de publicaciones 2013 IEPC*/
+.gf-menu .item174{
+    display: none;
+}
+
+/*Ocultar menu Revista Folios*/
+.gf-menu .item175{
+    display: none;
+}
+
+/*Ocultar menu Publicacion de Tesis*/
+.gf-menu .item195{
+    display: none;
+}
+
+/*Ocultar menu página de pruebas Test*/
+.gf-menu .item201{
+    display: none;
+}
+
+/*Ocultar Flechitas de los submenús------------------*/
+.gf-menu li.parent > .item::after{
+    font-size:0px;
+}
+
+
+/*Hacer que se desplieguen dinámicamente las listas----*/
+/*sprocket-lists-portrait-container:hover{
+    overflow: visible;
+    opacity: 0; 
+    height: auto;
+}*/
+
+/*Cambiar el fondo del menu login top*/
+.boxAccess {
+    font-size: 12px;
+    color: white;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0px solid #e0e0e0;
+    height:30px;
+    margin-top: -5px;
+}
+
+/*Cambiar el tamaño del modulo MEMBER ACCESS BODY*/
+.tamlogin{
+    max-width:300px;
+    margin-left: 26px;
+    -webkit-box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 6px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 5px 5px 0px 0px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -o-border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.subirlogin{
+    margin-left:-172px;
+    margin-top:-40px;
+}
+
+.cuadroinvitado{
+    max-width:300px;
+    margin-top: -24px;
+    margin-left:-172px;
+    margin-bottom: 80px;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -o-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cuadroinvitadobodytop{
+    max-width:300px;
+    margin-top: -24px;
+    margin-left:26px;
+    -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.75);
+    -webkit-border-radius: 0px 0px 5px 5px;
+    -moz-border-radius: 0px 0px 5px 5px;
+    -o-border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+@media screen and (min-width:0px) and (max-width:766px){
+	.subirlogin{
+		margin-left: 18px;
+	}
+	.cuadroinvitado{
+		margin-left: 18px;
+	}
+}
+
+/*Cambiar el tamaño del modulo primo en busqueda rápida*/
+.tamprimo{
+    padding-top:20px;
+    height:30px;
+}
+
+/*Ajustar y alinear el bloque de texto de los iconos de ayuda*/
+.alineacionv {
+	vertical-align: text-top;
+}
+
+.parrafov {
+	font-size: 11px;
+	width: 60%;
+	display:inline;
+}
+
+.margenimgserv{
+	margin-right:6px;
+}
+
+.margenimgtop{
+	margin-top:2px;
+}
+
+/*Ocultar los enlaces para recordar usuario y contraseña en los login*/
+#login-form ul{
+	display:none;
+}
+
+.nav-tabs.nav-stacked > li > a {
+	display:none;
+}
+
+/* -------------------------------------------- Mostrar los menus en vista movil (MENU POR DEFAULT ARBOL) -------------------------------------------*/
+
+menuMovilJM{
+	display:none;
+}
+
+.ocultarmenudefault{
+	width:100%;
+}
+
+@media screen and (max-width:767px){
+	.gf-menu.l1 > li > .item{
+    	font-size: 13px;
+    	color: black;
+    	/*font-weight: bold;*/
+    	text-transform: capitalize;
+    	text-shadow: 0px 0px 0px #ffffff;
+    	padding: 16px 20px 16px;
+	}
+
+	.gf-menu .dropdown ul li{
+		color:black;
+	}
+	
+	/*Submenus del Menu Recursos informativos*/
+	.gf-menu .item108 .dropdown{
+	    z-index:1;
+	}
+
+	/*Submenus del Menu Repositorio Institucional*/
+	.gf-menu .item114 .dropdown{
+	    z-index:1;
+	}
+
+	/*Submenus del Menu Repositorio Institucional no registrado*/
+	.gf-menu .item162 .dropdown{
+	    z-index:1;
+	}
+
+
+	/*Submenus del Menu Catálogos en Línea*/
+	.gf-menu .item117 .dropdown{
+	    z-index:1;
+	}
+
+
+	/*Submenus del Menu Herramientas*/
+	.gf-menu .item118 .dropdown{
+	    z-index:1;
+	}
+
+	/*Submenus del Menu Servicios bibliotecarios*/
+	.gf-menu .item140 .dropdown{
+	    z-index:1;
+	}
+
+	/*Menu Condiciones de Uso*/
+	.gf-menu .item151{
+	    display: none;
+	}
+
+	/*Menu Página Acceso*/
+	.gf-menu .item161{
+	    display: none;
+	}
+
+
+	/*--------------------------------------------------------- 	MENU CREADO    -------------------------------------------*/
+	menuMovilJM{
+		display:inline;
+		width:100%;
+		overflow:hidden;
+	}
+
+	.wrappermobile{
+		width:95%;
+		max-width:450px;
+		margin:auto;
+		overflow:hidden;
+	}
+
+	menuMovilJM nav{
+		line-height:0px;
+	}
+
+	menuMovilJM nav a{
+		width:100%;
+		display:inline-block;
+		color:#fff;
+		text-decoration:none;
+		padding:0px 20px;
+		/*line-height:15px;*/
+		font-size:10px;
+		/*font-weight:bold;*/
+	}
+	
+	/*--------------------------------------------------------    OCULTAR EL MENU POR DEFAULT    ---------------------------*/
+	.gf-menu-toggle {
+    		top: -100px; /* Sólo lo saca de la pantalla*/
+	}
+
+	.ocultarmenujm{
+		display:none;
+	}
+}
+
+/*Estilo del menu directorio dinamico escritorio*/
+.directoriod{
+	position:absolute;
+	z-index:100000;
+	/*background-color: #e6e6e6;*/
+	right:0;
+	margin-top:155px;
+	padding:1px 10px;
+	/*-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;*/
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	background: rgba(245,245,245,1);
+	background: -moz-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(235,235,235,1) 47%, rgba(227,227,227,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(245,245,245,1)), color-stop(47%, rgba(235,235,235,1)), color-stop(100%, rgba(227,227,227,1)));
+	background: -webkit-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(235,235,235,1) 47%, rgba(227,227,227,1) 100%);
+	background: -o-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(235,235,235,1) 47%, rgba(227,227,227,1) 100%);
+	background: -ms-linear-gradient(top, rgba(245,245,245,1) 0%, rgba(235,235,235,1) 47%, rgba(227,227,227,1) 100%);
+	background: linear-gradient(to bottom, rgba(245,245,245,1) 0%, rgba(235,235,235,1) 47%, rgba(227,227,227,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#e3e3e3', GradientType=0 );
+}
+
+.maxdir{
+	width:100%;
+	max-width:1170px;
+	margin:auto;
+	position:relative;
+}
+
+/*------------------------------ AJUSTAR LA PESTAÑA DIRECTORIO DEPENDIENDO EL TAMAÑO DE LA VENTANA --------------
+@media screen and (min-width:960px) and (max-width:1200px){
+	.directoriod{
+		margin-top:98px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:959px){
+	.directoriod{
+		margin-top:111px;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+	.directoriod{
+		margin-top:202px;
+	}
+}
+@media screen and (min-width:0px) and (max-width:479px){
+	.directoriod{
+		margin-top:202px;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+}*/
+
+
+/* Modificaciones para diseño final de plantilla WDG BIBLIO. */
+
+body{
+	margin: 0 auto;
+	max-width: 1200px;
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: gray;*/
+	background-color: #FFF;
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+	box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.39);
+}
+
+.rt-showcase-bg{
+	display:none;
+	max-width:1200px;
+	background-color:#FFF;
+}
+
+.rt-utility{
+	//background-color:#F2F2F2;
+	background-color:#000;
+}
+
+.menu-block{
+	//height: 20px;
+}
+
+.item{
+	//height: 20px;
+}
+
+.sprocket-lists-portrait li:hover{
+	background-color:#F0F0F0;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+.borderTwitter{
+	margin: 0 auto;
+	margin-top:-10px;
+	width: 79%;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E5E5E5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+#rt-maintop{
+	padding-top: 0px;
+	color: #FFF;
+}
+
+.fp-maintop.rt-block {
+    padding-top: 0;
+}
+
+#rt-footer::before {
+    background-color: #FFF ;
+    position: relative;
+}
+
+.servicios{
+	background-color:#033A61; 
+	width:100%;
+	margin-top: 6px;
+	margin-left: -8px;
+}
+
+.fp-maintop.rt-block {
+	margin-top: -40px;
+	height: 16px;
+}
+
+#seccion_esp{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+
+#seccion_multi{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_revistas_elec{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_libros_elec{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_obras_consulta{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_rec_esp{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_rec_libres{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+#seccion_bd_prueba{
+	padding: 10px;
+	//background-image: url("../images/main/libros.jpg");
+}
+
+.serv_spaces{
+	padding-left: 26px;
+	vertical-align: top;
+	display:inline-block;
+	line-height: normal;
+	width: 14.2%;
+}
+
+@media screen and (min-width:0px) and (max-width:1200px){
+	.fp-maintop.rt-block {
+		height: auto;
+	}
+	.serv_spaces{
+		width: auto;
+	}
+}
+
+.numeraliaglobal{
+	width: 100%;
+}
+
+.numeraliapos{
+	width: 16.1%;
+	//min-width: 72px;
+	margin-top: -60px;
+	padding-top: 56px;
+	display: inline-block;
+	//padding-right: 2px;
+}
+
+.numeraliaposimpar{
+	width: 16.1%;
+	//min-width: 72px;
+	margin-top: -60px;
+	vertical-align:top;
+	display: inline-block;
+	padding-right: 0px;
+}
+
+@media screen and (min-width:0px) and (max-width:1200px){
+	.numeraliapos {
+		width: 15%;
+	}
+	.numeraliaposimpar{
+		width: 15%;
+	}
+}
+
+.contacto{
+	margin-top: -18px;
+	margin-bottom: 0px;
+	margin-left: 14px;
+
+}
+
+.ubicacion{
+	margin-top: -18px;
+	margin-bottom: -18px;
+}
+
+.redessociales{
+	margin-top: -20px;
+	margin-bottom: -0px;
+}
+
+.botonaccesousuario{
+	margin-top: 9px;
+	margin-bottom: 10px;
+}
+
+.fp-roksprocket-features.rt-block{
+	margin: -20px 2.9% -1px;
+	padding: 0px;
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.ajustarmodulobienvenido{
+	max-width: 800px;
+}
+
+.seccionconricyt{
+	width:49%;
+	display:inline-block;
+	vertical-align:top;
+	margin-right: 2%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.seccionriudg{
+	width:49%;
+	display:inline-block;
+	vertical-align:top;
+	margin-bottom: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.seccionpublicartesis{
+	width:49%;
+	display:inline-block;
+	margin-right: 2%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.seccionautomateria{
+	width:49%;
+	display:inline-block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+@media screen and (min-width:0px) and (max-width:479px){
+	.seccionconricyt{
+		width: 100%;
+		margin-right: 0%;
+		margin-bottom: 2%;
+	}
+	.seccionriudg{
+		width: 100%;
+	}
+	/*.seccionpublicartesis{
+		width:100%;
+		margin-right: 0%;
+		margin-bottom: 2%;
+	}
+	.seccionautomateria{
+		width:100%;
+	}*/
+	.fp-roksprocket-features.rt-block{
+		margin: -20px 8.6% -1px;
+	}
+	.serv_spaces{
+		width: 100%;
+	}
+}
+
+.modulousuariosactivos{
+	text-align:center;
+	margin: 0 auto;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	width: 79%;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E5E5E5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.well{
+	display:none;
+	height: 10px;
+	//margin-bottom: -600px;
+}
+
+#rt-showcase{
+	background: rgba(0, 0, 0, 0) url("") no-repeat scroll 50% 100%;
+}
+
+.botoniniciarsesionbody{
+	margin: 0 auto;
+	//margin-botom:106px;
+	width: 79%;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E5E5E5;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.subirdescripcion{
+	padding-bottom:0px;
+}
+
+.ajustaropcionesmenu{
+	margin-left:54px;
+        margin-top:-60px;
+        //margin-right:-200px;
+}
+
+@media screen and (min-width:0px) and (max-width:1200px){
+    .ajustaropcionesmenu{
+        margin-left:0px;
+    }
+}
+
+.botonesfiltro{
+	display: inline-block;
+	color: white;
+	width: 20px;
+	background-color: gray;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	text-align: center;
+	margin: 2px;
+}
+
+.botonesfiltroActivo{
+	display: inline-block;
+	color: black;
+	width: 20px;
+	background-color: #E3E3E3;
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-o-border-radius: 24px;
+	border-radius: 24px;
+	text-align: center;
+	margin: 2px;
+	font-weight: bold;
+}
+
+.botonesfiltro:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+
+.botonquitarbusqueda{
+	display: inline-block;
+	color: white;
+	width: 106px;
+	height: 26px;
+	background-color: #DF0101;
+	-webkit-border-radius: 26px;
+	-moz-border-radius: 26px;
+	-o-border-radius: 26px;
+	border-radius: 26px;
+	text-align: center;
+	vertical-align:top;
+	margin: 2px;
+}
+
+.botonquitarbusqueda:hover{
+	background-color: #F78181;
+	cursor: pointer;
+}
+
+.desplegarow{
+	/*height: 76px;*/
+	height: 100%;
+	
+}
+
+.desplegarow:hover{
+	height: auto;
+}
+
+.desplegadiv:hover{
+	height: auto;
+}
+
+#bloquefiltros{
+	margin-top: -60px;
+}
+
+div.sprocket-features-content{
+	display:none;
+}
+
+
+/*CLASES PARA ENLACES EN LOS TITULOS Y LOGOS DE LAS BASES DE DATOS*/
+.titlesBD{
+	color:#000;
+}
+
+.active .portrait-image{
+	width:20% !important;
+	margin-bottom: -30px !important;
+}
+
+.portrait-image{
+	display:block;
+	height: 180px;
+	padding-left:50px;
+}
+
+.sprocket-lists-portrait-item{
+	//display:contents !important;
+	margin-left:24% !important;
+}
+
+.sprocket-lists-portrait-title{
+	display:contents !important;
+}
+
+/*OCULTAR OPCION RECUERDEME EN LOGIN*/
+#login-form #form-login-remember label[for="modlgn-remember"]{
+	display: none !important;
+}
+
+#login-form #form-login-remember input {
+	display: none;
+}
+
+/*CLASE PARA SUBIR UN POCO EL MODULO DE CADA SECCION DE LA WDG, COMO BD ESPECIALIZADAS, MULTIDISCIPLINARIAS, ETC.*/
+.hide-modulo{
+	display:none;
+}
+
+/*Clases para que los banner que tengan enlace cambien un poco al colocar el cursor encima*/
+
+.sprocket-features-img-container a {
+	-webkit-transition:all .5s ease !important; /* Safari y Chrome */
+	-moz-transition:all .5s ease !important; /* Firefox */
+	-o-transition:all .5s ease !important; /* IE 9 */
+	-ms-transition:all .5s ease !important; /* Opera */
+}
+
+.sprocket-features-img-container a:hover{
+	filter: brightness(130%) !important;
+}
+
+.areacon{
+	display:none;
+}

@@ -1,0 +1,44 @@
+body{
+	width:1438px;
+	background-color: #FFF;
+}
+
+body #credencialfondo {
+	/*position: absolute;
+*/	margin:0 auto;
+	margin-top:-7px;
+	margin-left:-3px;
+	z-index: -1;
+}
+
+body #vueltacredencial {
+	/*position: absolute;
+*/	margin:0 auto;
+	margin-top:22px;
+	margin-left:-5px;
+	z-index: 0;
+}
+
+body #foto{
+	position: absolute;
+	margin:0 auto;
+	margin-top:40px;
+	margin-left:-350px;
+	z-index: 1;
+}
+
+body #nombre{
+	/*position: absolute;*/
+	margin:0 auto;
+	margin-top:-40px;
+	margin-left:-1055px;
+	z-index: 0;
+}
+
+body #codigobarras{
+	position: absolute;
+	margin:0 auto;
+	margin-top:45px;
+	margin-left:-253px;
+	z-index: 1;
+}

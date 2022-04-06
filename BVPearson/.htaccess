@@ -1,0 +1,11 @@
+<Limit GET>
+order allow,deny
+# Goretti
+allow from 148.202.195.101
+#servidor wdg
+allow from 148.202.168.13
+# Edén
+allow from 148.202.195.100
+# Brenda
+allow from 148.202.195.93
+</Limit>

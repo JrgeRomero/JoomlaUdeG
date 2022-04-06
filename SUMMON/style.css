@@ -1,0 +1,437 @@
+	/*@charset "utf-8";*/
+/* CSS Document */
+
+
+/* nav links hover text color */
+
+
+	
+/* nav links hover background color */
+
+
+#wrapper {
+background:#FFFFFF;
+width:1000px;
+}
+/*margin:0 auto;
+text-align:left;
+}*/
+
+/*#content {
+padding-top:10px;
+padding-left:25px;
+padding-right:25px;
+width:950px;
+padding-left:100px;
+}*/
+
+td.SS_EJPMainCell {
+padding-bottom:10px;
+}
+div.res {
+font-weight: normal;
+} 
+
+ul.SS_DataBaseIndex {
+padding-left:10px;
+}
+
+div.SS_LocaleWidget { 
+padding-top:10px; 
+} 
+.SS_EJPPreContentHorizontalRules {
+display:none;
+}
+.SS_ToolLabels {
+text-align:center;
+}
+ .SS_CategorySelectorTable {
+text-align:center;
+padding-left:100px;
+}
+#form_titleSearch, .DBSelector {
+text-align:center;
+
+}
+.SS_ResultsAtoZLinks {
+padding-top:15px;
+float:right;
+width:1000px;
+text-align:center;
+}
+.SS_ResultsAtoZLinks a {
+font-size:17px;
+font-weight:bold;
+}
+
+.SS_HoldingsList, .SS_ResultsNoteGroup { padding-left:25px; }
+
+/*a, a:visited  {
+color:#3A6F8F;
+}*/
+a:hover {
+text-decoration:underline;
+}
+
+.SS_EJP_TabContainer {
+display:none;
+}
+/////TAB LINK COLORS/////
+
+.SS_EJP_TabListItemUnselectedBooks a,
+.SS_EJP_TabListItemUnselectedJournals a,
+.SS_EJP_TabListItemUnselectedAll a
+{}
+.SS_EJP_TabContainer a {color:;
+}
+
+
+/////360LINK/////
+div.Citation, table.SS_CitationTable, #JournalLinkTable, #BookLinkTable {
+border: thin solid #CCC;
+} 
+div.banner { 
+padding-bottom:10px; 
+} 
+#CitationRefiner {
+padding-left:150px;
+}
+#CitationResults {
+padding-left:100px;
+padding-bottom:30px;
+}
+.ContentHeading {
+font-size:18px;
+}
+#ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
+font-size:13px;
+}
+
+#ArticleCL,#JournalCL,#DatabaseCL,#BookCL,#DateCL {
+font-size:13px;
+}
+td.CustomLinkGroup {
+font-size:16px;
+}
+div.mainbody {  
+margin-top:0px; 
+margin-left:auto; 
+margin-right:auto; 
+} 
+#JournalLinkTable td, #BookLinkTable td {
+width:1100px;
+} 
+table#JournalLinkTable td, #BookLinkTable td {
+background-color: #F0F0F0;
+}
+div.res {
+font-weight: normal;
+} 
+div#ArticleCL.cl a:link, div#BookCL.cl a:link { 
+font-size: 16px; 
+} 
+
+div.Citation, table.SS_CitationTable, #JournalLinkTable {
+border: thin solid #CCC;
+} 
+
+td.SSRefinerJournalDateInput input{
+width:100px;
+}
+#content {
+width:1000px;
+text-align:center;
+}
+
+#Maintitle {
+background:#FFFFFF;
+
+}
+
+/*----- Summon Tabs -----*/
+.tabs {
+background:#3983B0;
+font-family:arial;
+text-decoration:none;
+font-weight:bold;
+    width:640px;
+   
+border: 0px solid #000000;
+
+  
+}
+
+/*h1 {
+text-align:center;
+padding-left:150px;
+font-size:15px;
+}*/
+
+ .tabs a:hover {
+text-decoration:underline;
+}
+    /*----- Tab Links -----*/
+	
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+     .tab-links li {
+	 background:#FFFFFF;
+padding-right:3px;
+        float:left;
+        list-style:none;
+    }
+	
+ 
+       .tab-links a {
+            padding:5px 5px;
+            display:inline-block;
+            border-radius:0px 0px 0px 0px;
+            background:#DCD5CD;
+font-family:arial;
+text-decoration:none;
+            font-size:10px;
+            color:#4c4c4c;
+            transition:all linear 0.25s;
+        }
+ 
+        .tab-links a:hover {
+	text-decoration:none;
+	background-color: #989999;
+        }
+ 
+   li.active a.tabcolor, li.active a.tabcolor:hover {
+	background:#3983B0;
+	color:#FFFFFF;
+    }
+ 
+    /*----- Content of Tabs -----*/
+	
+ 
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+
+
+
+/*html, body, div, dl, dt, dd, ul, 
+ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, label, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}*/
+
+
+
+/*ul {
+	background:#FFFFFF;
+	list-style-type: none;
+	zoom: 1.0;
+}*/	
+
+
+
+
+
+/*a {
+	text-decoration: none;
+	color: #3a6f8f;
+}*/
+
+
+.tabs input {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: left;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: auto;
+  background-image: none;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  width:300px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+.tabs .refine{
+  display: inline-block;
+
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: auto;
+  background-image: none;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  width:15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+}
+
+.boton{
+display: inline-block;
+cursor: pointer;
+padding: 6px 19px 6px 19px;
+margin-bottom: 0;
+font-size: 15px;
+background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+background-repeat: repeat-x;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+border: 1px solid #bbbbbb;
+border-bottom-color: #a2a2a2;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+}
+.tabs input, .tabs textarea, .tabs select{
+   -webkit-appearance: none;
+-moz-appearance:none;
+ }
+
+.tabs input[type='submit'] {
+	cursor: pointer;
+width:90px;
+height:35px;
+font-family:arial;
+font-weight:bold;
+font-size:12px;
+text-align:center; 
+vertical-align:middle;
+border-style:none;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+
+}
+.tabs input[type='submit']:hover{
+	background-color: #999999;
+	color: #FFF;
+	font-weight: bold;
+}
+
+ /*----- Checkboxes -----*/
+							
+.tabs input[type='checkbox'] {
+ 	cursor: pointer;
+	background:#000000;
+	width:15px;
+height:15px;
+background:#FFFFFF;
+  -webkit-appearance:checkbox;
+	-moz-appearance:checkbox;
+   transform: scale(1);         /* FF 16+, IE 10+ */
+    -webkit-transform: scale(1); /* Chrome, Safari 3.5+, Opera 15+ */
+
+    -ms-transform: scale(1);     /* legacy: IE 9+ */
+    -moz-transform: scale(1);    /* legacy: FF 3.5+ */
+    -o-transform: scale(1);      /* legacy: Opera 10.5 */
+  }
+  
+  .tabs input[type='radio'] {
+ 	cursor: pointer;
+	background:#000000;
+
+height:15px;
+width:15px;
+background:#FFFFFF;
+	  -webkit-appearance:radio;
+	-moz-appearance:radio;
+   transform: scale(1);         /* FF 16+, IE 10+ */
+    -webkit-transform: scale(1); /* Chrome, Safari 3.5+, Opera 15+ */
+
+    -ms-transform: scale(1);     /* legacy: IE 9+ */
+    -moz-transform: scale(1);    /* legacy: FF 3.5+ */
+    -o-transform: scale(1);      /* legacy: Opera 10.5 */
+  }
+
+
+
+label {
+	cursor: pointer;
+}
+
+.tabs button {
+	cursor: pointer;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	overflow: hidden;
+	border-width: 0;
+	border-radius: 3px;
+}
+
+
+
+
+.searchbox {
+	padding-top:20px;
+	padding-left:20px;
+	height:80px;
+	font-size:12px;
+	line-height:40px;
+	background-color: #3983B0;
+	color: #CCC;
+}
+.searchbox a {
+color:#000000;
+line-height:40px;
+}
+
+
+
+
+
+
+
+.tab {
+	max-height: 900px;
+    min-height: 187px
+}#editorial-colimna1 {
+	list-style-type: none;
+	background-color: #3983B0;
+}
+.editorial-colimna1 {
+	font-size: 9px;
+}
+.editorial-colimna1 ul li {
+	font-size: 11px;
+	line-height: 10px;
+}
+
+.btnprincipal{
+	font-size: 12px;
+	font-weight: bold;
+	width: 90px;
+	height: 35px;
+	border-radius: 4px 4px 4px 4px;
+	-moz-border-radius: 4px 4px 4px 4px;
+	-webkit-border-radius: 4px 4px 4px 4px;
+	border: 0px solid #000000;
+}

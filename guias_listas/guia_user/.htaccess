@@ -1,0 +1,7 @@
+<Limit GET>
+order allow,deny
+# Juan Márquez
+#allow from 148.202.195.108
+#allow from 148.202.195.100
+allow from all
+</Limit>

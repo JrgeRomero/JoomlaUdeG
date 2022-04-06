@@ -1,0 +1,424 @@
+﻿--- Todos los registros de bases de datos deberán estár acomodados por orden alfabético
+--- Las capacitaciones videograbadas tienen fecha, dejando en la parte superior la más reciente.
+
+NEW_BD
+INFO
+American Society of Civil Engineers (ASCE) * BD-ESP * revistas/asce.png
+GUIDE
+rename * put_icon
+ul
+Guía de uso (inglés) * ../Mod_Tutoriales/GUIAS/ASCE Guia.pdf
+VIDEO
+rename * put_icon
+ul
+Videograbación 16-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71711
+
+NEW_BD
+INFO
+Bibliocolabora * BD-MULT * multidisciplinarias/bibliocolabora.png
+VIDEO
+rename * put_icon
+ul
+Grupo Integra nivel superior (Bibliocolabora, Global eJournal y World eBook). Videograbación 26-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72920
+Grupo Integra nivel bachillerato (Bibliocolabora, Global eJournal y World eBook). Videograbación 21-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72919
+Instrucción Bibliocolabora * https://www.youtube.com/watch?v=jiZi53SPq_Y&feature=youtu.be
+
+NEW_BD
+INFO
+Biblioteca Digital Alfaomega * LIBROS-ELECTRONICOS * libros/alfaomega.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 23-01-2019 * https://riudg.udg.mx/handle/20.500.12104/72925
+
+NEW_BD
+INFO
+BioOne * BD-ESP * especializadas/bioOne.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 07-08-2020 * https://riudg.udg.mx/handle/20.500.12104/82192
+
+NEW_BD
+INFO
+Cengage Biblioteca Virtual * LIBROS-ELECTRONICOS * libros/cengage.png
+MANUAL
+rename * put_icon
+ul
+Manual de usuario * ../Mod_Tutoriales/MANUAL/Cengage manual.pdf
+
+NEW_BD
+INFO
+Clinical Key * BD-ESP * especializadas/CK.png
+VIDEO
+rename * put_icon
+ul
+ClinicalKey Student Assesment y ClinicalKey Student Enfermería 09-06-2020 * https://riudg.udg.mx/handle/20.500.12104/81410
+
+NEW_BD
+INFO
+Cochrane * rec-libres * rec-libres/cochrane.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 12-06-2020 * https://riudg.udg.mx/handle/20.500.12104/81411
+
+
+NEW_BD
+INFO
+Digitalia * LIBROS-ELECTRONICOS * libros/digitalia.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 28-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71708
+
+NEW_BD
+INFO
+e-libro * LIBROS-ELECTRONICOS * libros/elibro1.png
+TUTOS
+rename * put_icon
+ul
+Tutorial e-libro * https://www.youtube.com/watch?v=Ett4tf3NY9E
+
+NEW_BD
+INFO
+EbscoHost Web * BD-MULT * multidisciplinarias/ebsco.png
+VIDEO
+rename * put_icon
+ul
+Como herramienta para la investigación. Herramientas Avanzadas. Videograbación 19-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72918
+Como herramienta para la investigación. Videograbación 14-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72917
+Área administrativa. Videograbación 29-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71716
+Ingeniería. Videograbación 22-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71714
+Investigación médica y Dynamed. Videograbación 18-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71713
+Como herramienta para la investigación. Herramientas Avanzadas. Videograbación 03-07-2019 * https://riudg.udg.mx/handle/20.500.12104/79772
+
+NEW_BD
+INFO
+Editorial Medica Panamericana * LIBROS-ELECTRONICOS * libros/panamericana.png
+TUTOS
+rename * put_icon
+ul
+Tutorial Medica Panamericana * https://www.medicapanamericana.com/include/videosemp.aspx?format=email&URLVideo=eBooks%2FComoUtilizar.mp4
+
+NEW_BD
+INFO
+Emerald * BD-MULT * multidisciplinarias/emerald1.png
+VIDEO
+rename * put_icon
+ul
+Ingenierías. Videograbación 23-10-2019 * https://riudg.udg.mx/handle/20.500.12104/80911
+Educación, psicología y bibliotecología. Videograbación 03-10-2019 * https://riudg.udg.mx/handle/20.500.12104/80909
+Ciencias sociales. Videograbación 18-09-2019 * https://riudg.udg.mx/handle/20.500.12104/80905
+Educación, psicología y atención a grupos vulnerables. Videograbación 08-03-2019 * https://hdl.handle.net/20.500.12104/72924
+Biblioteconomía y gestión de la información. Videograbación 06-03-2019 * https://hdl.handle.net/20.500.12104/72923
+Ingeniería (mecánica, materiales, eléctrica y electrónica). Videograbación 04-03-2019 * https://hdl.handle.net/20.500.12104/72922
+Ciencias económico-administrativas. Videograbación 27-02-2019 * https://hdl.handle.net/20.500.12104/72921
+
+
+NEW_BD
+INFO
+Emerging Markets Information Service * BD-ESP * especializadas/isiemegingmarkets.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 21-01-2019 * https://riudg.udg.mx/handle/20.500.12104/72910
+
+NEW_BD
+INFO
+Enciclonet * OBRAS-DE-CONSULTA * obras-consulta/enciclonet.jpg
+VIDEO
+rename * put_icon
+ul
+Videograbación 15-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71710
+
+NEW_BD
+INFO
+Enciclopedia Hispánica Mienciclo * OBRAS-DE-CONSULTA * obras-consulta/mienciclo.png
+GUIDE
+rename * put_icon
+ul
+Guía web * http://enciclo.mienciclo.com/index.php/Ayuda:Ayuda
+
+NEW_BD
+INFO
+Epistemonikos * rec-libres * rec-libres/epistemonikos.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 16-06-2020 * https://riudg.udg.mx/handle/20.500.12104/81412
+
+NEW_BD
+INFO
+Eureka Medica Panamericana * LIBROS-ELECTRONICOS * libros/panamericana.png
+MANUAL
+rename * put_icon
+ul
+Manual Eureka * ../Mod_Tutoriales/MANUAL/Manual _Eureka.pdf
+
+NEW_BD
+INFO
+Global eJournal Library * BD-MULT * multidisciplinarias/ejournal2HD.png
+VIDEO
+rename * put_icon
+ul
+Grupo Integra nivel superior (Bibliocolabora, Global eJournal y World eBook). Videograbación 26-02-2019 * https://hdl.handle.net/20.500.12104/72920
+Grupo Integra nivel bachillerato (Bibliocolabora, Global eJournal y World eBook). Videograbación 21-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72919
+
+NEW_BD
+INFO
+Institute of Electrical and Electronics Engineers (IEEE Xplore) * BD-ESP * especializadas/IEEE.png
+GUIDE
+rename * put_icon
+ul
+Guía web (inglés) * https://ieeexplore.ieee.org/Xplorehelp/#/
+
+NEW_BD
+INFO
+Joanna Briggs Institute – Revisiones Sistemáticas en Enfermería * rec-libres * rec-libres/jbi.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 18-06-2020 * https://riudg.udg.mx/handle/20.500.12104/81413
+
+NEW_BD
+INFO
+Lippincott Williams & Wilkins * BD-ESP * especializadas/lippincot.png
+VIDEO
+rename * put_icon
+ul
+Videograbación OVID Journals y OVIDSP Medline 19-10-2020 * https://riudg.udg.mx/handle/20.500.12104/82215
+Videograbación OVID eBooks y OVID español 04-11-2020 * https://riudg.udg.mx/handle/20.500.12104/82221
+
+
+NEW_BD
+INFO
+McGraw Hill * LIBROS-ELECTRONICOS * libros/mcgrawhill.png
+VIDEO
+rename * put_icon
+ul
+McGraw Hill y Access Engineering. Videograbación 20-08-2019 * https://riudg.udg.mx/handle/20.500.12104/79773
+Videograbación 19-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71705
+
+NEW_BD
+INFO
+Nature * REVISTA-ELECTRONICA * revistas/nature.png
+VIDEO
+rename * put_icon
+ul
+Springer Nature (Herramientas para la publicación científica). Videograbación 26-09-2019 * https://riudg.udg.mx/handle/20.500.12104/80907
+Videograbación 19-09-2019 * https://riudg.udg.mx/handle/20.500.12104/80906
+Videograbación 06-11-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71718
+
+NEW_BD
+INFO
+NANO * BD-ESP * especializadas/nano.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 01-10-2019 * https://riudg.udg.mx/handle/20.500.12104/80908
+Videograbación 14-03-2019 * https://riudg.udg.mx/handle/20.500.12104/72927
+Videograbación 16-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71712
+
+NEW_BD
+INFO
+NNNConsult * BD-ESP * bd-prueba/nnn.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 02-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71709
+
+NEW_BD
+INFO
+Océano Universitas * OBRAS-DE-CONSULTA * obras-consulta/oceano.png
+GUIDE
+rename * put_icon
+ul
+Guía de uso * ../Mod_Tutoriales/GUIAS/OCEANO Universitas guia.pdf
+TUTOS
+rename * put_icon
+ul
+Videotutorial Océano Universitas * https://www.youtube.com/watch?v=q06k0wkbuuI&feature=youtu.be
+
+NEW_BD
+INFO
+Patents Collection * BD-ESP * especializadas/proquestdialogHDD.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 23-10-2018 * https://riudg.udg.mx/handle/20.500.12104/71715
+
+NEW_BD
+INFO
+Proquest * BD-MULT * multidisciplinarias/proquest.png
+VIDEO
+rename * put_icon
+ul
+Proquest One Academic 27-03-2020 * https://riudg.udg.mx/handle/20.500.12104/80903
+Academic Video Online 02-04-2020 * https://riudg.udg.mx/handle/20.500.12104/80904
+
+NEW_BD
+INFO
+Refworks * BD-ESP * especializadas/refworks.png
+VIDEO
+rename * put_icon
+ul
+Refworks: gestor de referencia bibliográfico 29-10-2020 * https://riudg.udg.mx/handle/20.500.12104/82218
+
+NEW_BD
+INFO
+ScienceDirect * BD-MULT * multidisciplinarias/science.png
+VIDEO
+rename * put_icon
+ul
+Scopus, ScienceDirect y el gestor de referencia Mendeley (Vespertino) 26-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71707
+Scopus, ScienceDirect y el gestor de referencia Mendeley (Matutino) 26-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71706
+
+NEW_BD
+INFO
+Scopus * BD-MULT * multidisciplinarias/scopus.png
+VIDEO
+rename * put_icon
+ul
+Scopus, ScienceDirect y el gestor de referencia Mendeley (Vespertino) 26-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71707
+Scopus, ScienceDirect y el gestor de referencia Mendeley (Matutino) 26-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71706
+
+NEW_BD
+INFO
+Springer Link * BD-MULT * multidisciplinarias/springer.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 31-10-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71717
+
+NEW_BD
+INFO
+Springer Materials * BD-MULT * multidisciplinarias/springer.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 09-10-2019 * https://riudg.udg.mx/handle/20.500.12104/80910
+Videograbación 15-11-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71721
+
+NEW_BD
+INFO
+Tirant Online * BD-ESP * bd-prueba/tirant.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 20-03-2019 * https://riudg.udg.mx/handle/20.500.12104/72928
+Videograbación 03-09-2020 * https://riudg.udg.mx/handle/20.500.12104/82191
+
+NEW_BD
+INFO
+Turnitin * HERRAMIENTA * rec-esp/turnitin.png
+VIDEO
+rename * put_icon
+ul
+Uso de la herramienta antiplagio Turnitin Videograbación 08-09-2020 * https://riudg.udg.mx/handle/20.500.12104/82195
+
+NEW_BD
+INFO
+Ulrichsweb * BD-ESP * especializadas/ulrichs.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 20-11-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71722
+
+NEW_BD
+INFO
+Vidal Vademecum * BD-ESP * bd-prueba/vidal.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 14-05-2020 * https://riudg.udg.mx/handle/20.500.12104/81408
+
+NEW_BD
+INFO
+v|lex * BD-ESP * especializadas/vlex.png
+VIDEO
+rename * put_icon
+ul
+Videograbación 04-09-2018 * https://riudg.udg.mx/handle/20.500.12104/71704
+v|Lex: Nueva plataforma. Videograbación 27-08-2019 * https://riudg.udg.mx/handle/20.500.12104/79774
+
+NEW_BD
+INFO
+Web of Science * BD-MULT * multidisciplinarias/web of science.png
+VIDEO
+rename * put_icon
+ul
+Web of Science y gestor de referencia EndNote. Videograbación 13-11-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71720
+Videograbación 09-11-2018 * https://www.riudg.udg.mx/handle/20.500.12104/71719
+Videograbación Web of Science y Journal Citations Reports 18-03-2020 * https://riudg.udg.mx/handle/20.500.12104/80901
+Videograbación Incites 25-03-2020 * https://riudg.udg.mx/handle/20.500.12104/80902
+
+
+NEW_BD
+INFO
+World eBook Library * LIBROS-ELECTRONICOS * libros/worldebooks.png
+VIDEO
+rename * put_icon
+ul
+Grupo Integra nivel superior (Bibliocolabora, Global eJournal y World eBook). Videograbación 26-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72920
+Grupo Integra nivel bachillerato (Bibliocolabora, Global eJournal y World eBook). Videograbación 21-02-2019 * https://riudg.udg.mx/handle/20.500.12104/72919
+
+NEW_BD
+INFO
+Wdg * BD-ESP * especializadas/wdg.png
+VIDEO
+rename * put_icon
+ul
+Curso uso de la Biblioteca digital de la Universidad de Guadalajara 26-03-2020 * https://riudg.udg.mx/handle/20.500.12104/80900
+Curso uso de la Biblioteca digital de la Universidad de Guadalajara con enfoque en historia 08-05-2020 * https://riudg.udg.mx/handle/20.500.12104/81407
+Curso uso de la Biblioteca digital de la Universidad de Guadalajara con enfoque en literatura 26-05-2020 * https://riudg.udg.mx/handle/20.500.12104/81409
+Curso uso de la Biblioteca digital de la Universidad de Guadalajara con enfoque en interculturalidad 09-07-2020 * https://riudg.udg.mx/handle/20.500.12104/82194
+Tutorial: "como ingresar a Biblioteca Digital wdg.biblio de la Universidad de Guadalajara"  * https://riudg.udg.mx/handle/20.500.12104/82201
+Tutorial: "Recursos informativos de la Biblioteca Digital wdg.biblio de la Universidad de Guadalajara"  * https://riudg.udg.mx/handle/20.500.12104/82202
+
+
+NEW_BD
+INFO
+Zoom * RECURSO LIBRE * rec-libres/zoom.png
+VIDEO
+rename * put_icon
+ul
+Buenas prácticas y seguridad en Zoom Bibliotecas. Videograbación 13-07-2020 * https://riudg.udg.mx/handle/20.500.12104/82193
+
+
+
+
+-----------EXAMPLE
+eNEW_BD
+eINFO
+AccessDL * test * esp/accessDL.png
+eTUTOS
+Google * https://google.com
+Facebook * https://facebook.com
+eGUIDE
+rename Guías: * put_icon
+Google * https://google.com
+Facebook * https://facebook.com
+eMANUAL
+rename Manuales: * put_icon
+ul
+Google * https://google.com
+Facebook * https://facebook.com
+eVIDEO
+rename Videos: * put_icon
+ol
+Google * https://google.com
+Facebook * guitar.mp4 * _localv
+eCAPS
+rename Capacitaciones: * put_icon
+ul icon
+Archivo * https://google.com
+Facebook * https://facebook.com
+
+
+
+
+
+
+
+END_FILE

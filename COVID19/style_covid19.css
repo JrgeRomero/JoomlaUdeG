@@ -1,0 +1,42 @@
+*{
+	margin: 0 auto;
+	max-width: 1200px;
+	font-family: "Trebuchet MS";
+}
+
+body{
+	border-left: 1px solid #BDBDBD;
+	border-right: 1px solid #BDBDBD;
+	min-height: 600px;
+}
+
+thead{
+	//font-weight: 500;
+	background-color: #BDBDBD;
+	//color: white;
+}
+
+header{
+	padding:24px;
+	padding-top:48px;
+	padding-bottom:38px;
+	background-color: #0B3861;
+	color: white;
+}
+
+th{
+	border: 1px solid #BDBDBD;
+	margin: 22px;
+}
+
+#content{
+	padding: 24px;
+}
+
+footer{
+	padding:24px;
+	padding-top:48px;
+	padding-bottom:38px;
+	background-color: #848484;
+	color: white;
+}

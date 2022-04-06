@@ -1,0 +1,101 @@
+<?php
+session_start(); 
+
+/*if ($_SESSION["autentificado"] != "SI") { 
+    header("Location: index.php"); 
+    exit(); 
+}*/
+
+define('_JEXEC', 1);
+		if (file_exists(__DIR__ . '/defines.php'))
+		{
+			include_once __DIR__ . '/defines.php';
+		}
+
+		if (!defined('_JDEFINES'))
+		{
+			define('JPATH_BASE', __DIR__);
+			require_once JPATH_BASE . '/includes/defines.php';
+		}
+
+		require_once JPATH_BASE . '/includes/framework.php';
+
+		$mainframe =& JFactory::getApplication('site');
+		$mainframe->initialise();
+
+if (JFactory::getUser()->id == 0){
+	 header("Location: index.php");
+}
+
+	$session = JFactory::getSession();
+	//$_SESSION['codigosiiau'] = $session->get("CODE");
+	//$codigo = $_SESSION['codigosiiau'];
+	$codigo = $session->get("CODE");
+	$nombre = $session->get("NAME_USERSIIAU");
+	//echo "<script>alert(".$codigo.");</script> ";
+
+$user = JFactory::getUser();
+
+/**
+ * @param   string $useremail Email address of user to create token for.
+ * @param   string $firstname First name of user (used to update/create user).
+ * @param   string $lastname Last name of user (used to update/create user).
+ * @param   string $username Username of user (used to update/create user).
+ * @param   string $ipaddress IP address of end user that login request will come from (probably $_SERVER['REMOTE_ADDR']).
+ * @param int      $courseid Course id to send logged in users to, defaults to site home.
+ * @param int      $modname Name of course module to send users to, defaults to none.
+ * @param int      $activityid cmid to send logged in users to, defaults to site home.
+ * @return bool|string
+ */
+function getloginurl($useremail, $firstname, $lastname, $username, $courseid = null, $modname = null, $activityid = null) {
+    require_once('PHP-REST/curl.php');
+
+    $token        = '822a2dc2dbfcb4f084d9c0abaa9d11fe';
+    $domainname   = 'http://148.202.195.114';
+    $functionname = 'auth_userkey_request_login_url';
+
+    $param = [
+        'user' => [
+            'firstname' => $firstname, // You will not need this parameter, if you are not creating/updating users
+            'lastname'  => $lastname, // You will not need this parameter, if you are not creating/updating users
+            'username'  => $username, 
+            'email'     => $useremail,
+        ]
+    ];
+
+    $serverurl = $domainname . '/webservice/rest/server.php' . '?wstoken=' . $token . '&wsfunction=' . $functionname . '&moodlewsrestformat=json';
+    $curl = new curl; // The required library curl can be obtained from https://github.com/moodlehq/sample-ws-clients 
+
+    try {
+        $resp     = $curl->post($serverurl, $param);
+//var_dump($resp);
+        $resp     = json_decode($resp);
+        if ($resp && !empty($resp->loginurl)) {
+            $loginurl = $resp->loginurl;        
+        }
+    } catch (Exception $ex) {
+//echo "exp";
+        return false;
+    }
+
+    if (!isset($loginurl)) {
+//echo "login";
+        return false;
+    }
+
+    $path = '';
+    if (isset($courseid)) {
+        $path = '&wantsurl=' . urlencode("$domainname/course/view.php?id=$courseid");
+    }
+    if (isset($modname) && isset($activityid)) {
+        $path = '&wantsurl=' . urlencode("$domainname/mod/$modname/view.php?id=$activityid");
+    }
+
+    return $loginurl . $path;
+}
+
+$loginURL =  getloginurl($user->get('email'), $user->get('name'), '.', $user->get('username'));
+//echo $loginURL;
+header("Location: " . $loginURL);
+exit;
+

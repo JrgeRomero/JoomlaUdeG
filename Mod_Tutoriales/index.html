@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8">
+	<title>PRUEBA TUTORIALES</title>
+	<link href="./tutorialesStyle.css" rel="stylesheet" type="text/css">
+	<script src="./jquery1-11-1.js"></script>
+	<script src="./tutoscript.js"></script>
+</header>
+	<body>
+		<!--<a id="TUTO_EBSCO" href="#" class="enlaceTuto">EBSCO<div class="tutoDialog">Dialogo</div></a>
+		<a id="TUTO_PROQUEST" href="#" class="enlaceTuto">PROQUEST<div class="tutoDialog">Dialogo</div></a><br>-->
+		
+		<div id="tutos_player"> 
+			<span class="close_player" onclick="javascript:cerrarVideoPlayer();" title="Cerrar reproductor">X</span>
+			<video id="player" controls width="100%" preload poster=path/to/poster.jpg> 
+				<source src="video/guitar.mp4" type="video/mp4"> 
+              <!--<source src="http://nettuts.s3.amazonaws.com/763_sammyJSIntro/trailer_test.ogg" type="video/ogg"> -->
+                
+              <!-- LINK TO FLASH FALLBACK PLAYER HERE. COULD BE EMBED OR OBJECT ELEMENT -->
+			</video> 
+		</div>
+		
+		
+		<div class="modulo_tutoriales">
+		
+		Buscar: <input type="text" id="search_dbtuto" onchange="javascript:buscarDBTutos();" title="El sistema buscar&aacute; los t&eacute;rminos ingresados en todos los títulos y tipos de ayuda.">&nbsp;
+		Filtrar por: <select id="boxseccion" onchange="javascript:filtraSeccionesTutos();"><option value="0">Especializadas</option><option value="1">Multidisciplinarias</option><option value="2">Revistas electr&oacute;nicas</option><option value="3">Libros electr&oacute;nicos</option><option value="4">Obras de consulta</option><option value="5">Recursos libres</option><option value="6">Bases de datos a prueba</option></select><br>
+		Tipo: <input type="checkbox" name="tutos" value="tutos" onchange="javascript:filtraTutoriales();" checked>Tutorial&nbsp;
+		<input type="checkbox" name="guide" value="guide" onchange="javascript:filtraGuias();" checked>Gu&iacute;a&nbsp;
+		<input type="checkbox" name="manual" value="manual" onchange="javascript:filtraManuales();" checked>Manual&nbsp;
+		<input type="checkbox" name="video" value="video" onchange="javascript:filtraVideos();" checked>Video&nbsp;
+		<input type="checkbox" name="caps" value="caps" onchange="javascript:filtraCaps();" checked>Capacitaciones&nbsp;
+		</div>
+		
+		<div id="text"></div>
+		
+		<!--<p>Hola a todos, esto es un texto de prueba</p>-->
+	</body>
+	<footer>
+		
+	</footer>
+</html>

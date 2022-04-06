@@ -1,0 +1,288 @@
+/**{margin:0; padding:0;}
+
+body{
+	background: #fff;
+}*/
+	
+headerD{
+	width:100%;
+	overflow:hidden;
+	background-image: url("/images/banner-top.png");
+	margin-bottom:20px;
+	display:none;
+}
+
+.wrapper{
+	width:95%; /*Diseño final*/
+	max-width:1200px;
+	margin:auto;
+	overflow:hidden;
+}
+
+headerD .logo{
+	color: #fff;
+	font-size:50px;
+	line-height:200px;
+	float:left;
+}
+
+headerD nav{
+	float:right;
+	line-height:200px;
+}
+
+headerD nav a{
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:0px 20px;
+	line-height:normal;
+	font-size:10px;
+	/*font-weight:bold;*/
+}
+
+headerD nav a:hover{
+	/*background:#fff;
+	border-radius:50px;*/
+}
+
+.headerdin{
+	max-width:1200px; /*Para diseño final*/
+	display:inline;
+	position:fixed;
+	height:50px;
+	z-index:100000000000;
+	-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
+
+.headerdintop{
+	background-color:#808080;
+	height:5px;
+}
+
+.headerdin .logo{
+	line-height:35px;
+	position:absolute;
+	/*font-size:30px;*/
+	/*z-index:100000000000;*/
+
+}
+
+.headerdin nav{
+	line-height:47px;
+}
+
+.headerdin nav a{
+}
+
+.headerdin img{
+	max-width:140px; /*Diseño final*/
+}
+
+/*.contenido{
+	padding-top:100px;
+}
+
+.contenido p{
+	margin-bottom:1em;
+}*/
+
+@media screen and (max-width:1269px){
+	headerD .logo,
+	headerD nav{
+		width:100%;
+		text-align: center;
+		line-height:80px;
+	}
+	
+	.headerdin {
+		height:auto;
+	}
+	
+	.headerdin img{
+		max-width:80px;
+
+	}
+	
+	.headerdin .logo,
+	.headerdin nav{
+		position:relative;
+		/*height:50px;*/
+		text-align: center;
+		line-height:20px;
+	}
+
+	.headerdin nav a{
+		font-size:12px;
+	}
+	
+}
+
+.headerdinmovil{
+	display:inline;
+	position:fixed;
+	height:45px;
+}
+
+/*Poner el estilo a los colores del Menu-------------------------------------------------*/
+
+/*Capitalizar y personalizar los titulos de los menus*/
+.tituloshd {
+    font-size: 13px;
+    color: white;
+    /*font-weight: bold;*/
+    text-transform: capitalize;
+    text-shadow: 0px 0px 0px #ffffff;
+    padding: 16px 20px 16px;
+}
+
+/*Principal menu*/
+.hdprincipal {
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #E6E6E6),
+	color-stop(1, #808080)
+    );
+    background-image: -o-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -moz-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -webkit-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: -ms-linear-gradient(bottom, #E6E6E6 0%, #808080 100%);
+    background-image: linear-gradient(to bottom, #E6E6E6 0%, #808080 100%);
+}
+
+/*Cambiar el color de un menu activo*/
+/*.gf-menu.l1  li.active > .item::before{
+    width: 100%;
+    background-color: #FFF;
+    z-index:-1;
+    background-image: none;
+}*/
+
+/*Recursos Informativos menu(Antes: Bases de Datos)*/
+.hdrecursosinformativos{
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #FA031C),
+	color-stop(1, #640409)
+    );
+    background-image: -o-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -moz-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -webkit-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: -ms-linear-gradient(bottom, #FA031C 0%, #640409 100%);
+    background-image: linear-gradient(to bottom, #FA031C 0%, #640409 100%);
+}
+
+/*Recursos Informativos submenus (Antes: Bases de Datos)*/
+/*.gf-menu.l1 .item108 ul{
+    background-color: #EDD3D3;
+}*/
+
+/*Repositorio Institucional menu(Antes: Colecciones electrónicas)*/
+.gf-menu.l1 .item114{
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #6CCF4F),
+	color-stop(1, #376B33)
+    );
+    background-image: -o-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -moz-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -webkit-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -ms-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: linear-gradient(to bottom, #6CCF4F 0%, #376B33 100%);
+}
+
+/*Repositorio Institucional menu(Antes: Colecciones electrónicas) no registrado*/
+.hdrepo{
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #6CCF4F),
+	color-stop(1, #376B33)
+    );
+    background-image: -o-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -moz-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -webkit-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: -ms-linear-gradient(bottom, #6CCF4F 0%, #376B33 100%);
+    background-image: linear-gradient(to bottom, #6CCF4F 0%, #376B33 100%);
+}
+
+
+/*Catálogos en línea menu*/
+.hdcatalogosl{
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #1B9BD1),
+	color-stop(1, #15638A)
+    );
+    background-image: -o-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -moz-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -webkit-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: -ms-linear-gradient(bottom, #1B9BD1 0%, #15638A 100%);
+    background-image: linear-gradient(to bottom, #1B9BD1 0%, #15638A 100%);
+}
+
+
+/*Catálogos en línea submenus*/
+/*.gf-menu.l1 .item117 ul{
+    background-color: #ABCADB;
+}*/
+
+/*Herramientas menu*/
+.hdherramientas{
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #B57021),
+	color-stop(1, #784A16)
+    );
+    background-image: -o-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -moz-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -webkit-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: -ms-linear-gradient(bottom, #B57021 0%, #784A16 100%);
+    background-image: linear-gradient(to bottom, #B57021 0%, #784A16 100%);
+}
+
+/*Herramientas submenus*/
+/*.gf-menu.l1 .item118 ul{
+    background-color: #E0DBCF;
+}*/
+
+/*Servicios Bibliotecarios menu*/
+.hdserviciosb {
+    background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0, #9980BF),
+	color-stop(1, #4C3175)
+    );
+    background-image: -o-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -moz-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -webkit-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: -ms-linear-gradient(bottom, #9980BF 0%, #4C3175 100%);
+    background-image: linear-gradient(to bottom, #9980BF 0%, #4C3175 100%);
+}
+
+/*Servicios Bibliotecarios submenus*/
+/*.gf-menu.l1 .item140 ul{
+    font-size: 11px;
+    line-height: 24px;
+    margin: 0 -1px 0 2px;
+    padding-bottom: 19px;
+    padding-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    background-color: #CACCED;
+}*/

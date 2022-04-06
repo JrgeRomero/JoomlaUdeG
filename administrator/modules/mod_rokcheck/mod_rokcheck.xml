@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9.4" client="administrator" method="upgrade">
+    <name>RokCheck</name>
+    <author>RocketTheme - Mark Taylor (a.k.a MrT)</author>
+    <creationDate>April 4, 2019</creationDate>
+    <copyright>Copyright (C) 2019 RocketTheme</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>https://rockettheme.com</authorUrl>
+    <version>1.0.0</version>
+    <description>Checks version of RocketTheme templates</description>
+    <files>
+        <filename module="mod_rokcheck">mod_rokcheck.php</filename>
+        <filename>helper.php</filename>
+        <filename>simple_html_dom.php</filename>
+        <folder>tmpl</folder>
+    </files>
+</extension>

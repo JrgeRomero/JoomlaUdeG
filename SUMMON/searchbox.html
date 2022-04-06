@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+<link href="SUMMON/style.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.tabs .tab-links a').on('click', function(e)  {
+        var currentAttrValue = $(this).attr('href');
+ 	
+	//Corregir el redireccionamiento en wdg.biblio
+	//alert(currentAttrValue);
+	if(currentAttrValue.endsWith("#tab1")){
+		currentAttrValue = "#tab1";
+	}
+	else if(currentAttrValue.endsWith("#tab2")){
+		currentAttrValue = "#tab2";
+	}
+	else if(currentAttrValue.endsWith("#tab3")){
+		currentAttrValue = "#tab3";
+	}
+	else if(currentAttrValue.endsWith("#tab5")){
+		currentAttrValue = "#tab5";
+	}
+	
+        // Show/Hide Tabs
+        $('.tabs ' + currentAttrValue).show().siblings().hide();
+ 
+        // Change/remove current tab to active
+        $(this).parent('li').addClass('active').siblings().removeClass('active');
+ 
+        e.preventDefault();
+    });
+});
+</script>
+ <script type="text/javascript" src="SUMMON/summonsearchwidget.js.js"></script>
+
+<!--<div id="wrapper">-->
+
+
+ <!--<div id="content">-->
+<div class="tabs">
+<div id="Maintitle">
+</div>
+    <ul class="tab-links">
+        <li class="active"><a href="#tab1" class="tabcolor">B&uacute;squeda B&aacute;sica</a></li>
+        <li><a href="#tab2" class="tabcolor">Art&iacute;culos de Revistas</a></li>
+        <li><a href="#tab3" class="tabcolor">Libros</a></li>
+       <!-- <li><a href="#tab4" class="tabcolor">Cat&aacute;talogo</a></li>-->
+         <li><a href="#tab5" class="tabcolor">B&uacute;squeda por Editorial</a></li>
+		  <li><a href="http://jx7et9nz4x.search.serialssolutions.com/" target="_blank">Portal de Revistas</a></li>
+      <li><a href="http://jx7et9nz4x.search.serialssolutions.com/?SS_Page=refiner" target="_blank">&Iacute;ndice de citas</a></li>
+		
+    </ul>
+ 
+    <div class="tab-content">
+	
+        <div id="tab1" class="tab active" style="padding-bottom:10px">
+
+		<div class="searchbox">
+        
+  <form action="JavaScript: search()"  method="GET" name="searchform" >
+    
+	  <input type="text" name="searchText" id="searchText" placeholder="B&uacute;squeda en cat&aacute;logos y bases de datos" style="width:80%" />
+      
+      <button class="btn btnsmall-library-iconbutton toggle btnprincipal" onclick="search();return false">Buscar</button>
+
+
+
+<div id="library-search-refine">
+
+
+	  <input type="radio" name="filter" value="keyword" checked="checked" id="keyword" class="refine" />Todos los Campos
+      <input type="radio" name="filter" value="author" id="author" class="refine" />Autor
+      <input type="radio" name="filter" value="tp" id="tp" class="refine" />T&iacute;tulo de Publicaci&oacute;n
+     <!-- <input type="radio" name="filter" value="tm" id="tm"class="refine"  />T&eacute;rminos Tem&aacute;ticos--><br/>
+      <input type="checkbox" name="Fulltextonline" value="fto" id="fto" class="refine" checked />Texto Completo
+     <input type="checkbox" name="Instructionalmaterials" value="im" id="im" class="refine" /> Recursos Arbitrados
+      <input type="checkbox" name="availabilityinlibrary" value="ail" id="ail" class="refine"  />Cat&aacute;logos y Repositorios
+      </div>
+     
+<p style="text-align:right; margin-right:10px; color:#CCCCCC"><a href="http://conricytudg.summon.serialssolutions.com/#!/advanced" style="color:#CCCCCC" target="_blank">B&uacute;squeda Avanzada</a></p> <br/></form>
+
+		</div>
+
+ </div>
+        <div id="tab2" class="tab">
+		<div class="searchbox">
+			
+                     <form action="http://conricytudg.summon.serialssolutions.com/search" target="_blank"><input name="s.fvf[]" value="ContentType,Journal Article" type="hidden"> 
+<input type="text" style="width:80%" name="s.q" onfocus="this.value='';" value="" size="25" placeholder="Buscar por titulo, tema, autor, ISSN, DOI, etc." required>
+<input type="submit" class="btn btnsmall-library-iconbutton toggle btnprincipal" value="Buscar">
+<br>
+
+
+<input type="checkbox"  style="background:transparent;border:0" name="s.fvf[]" value="IsScholarly,true"> Limitar a recursos arbitrados, incluyendo los revisados por pares
+<br/>
+<input type="checkbox"  style="background:transparent;border:0" name="s.ho" value="f"> 	Incluir resultados ajenos a las colecciones de la instituci&oacute;n
+</form>
+          
+        </div>
+		</div>
+ 
+       <div id="tab3" class="tab">
+		<div class="searchbox">
+           <form action="http://conricytudg.summon.serialssolutions.com/search" target="_blank"><input name="s.fvf[]" value="ContentType,Book / eBook,f" type="hidden">
+<input type="text" style="width:80%" name="s.q" value="" size="25" placeholder="B&uacute;squeda por t&iacute;tulo del libro, autor, ISBN, etc." required>
+ <input type="submit" value="Buscar">
+<br>
+
+<input type="checkbox"  style="background:transparent;border:0"  name="s.fvf[]" value="IsFullText,true"> e-books &uacute;nicamente <br/>
+<input type="checkbox"  style="background:transparent;border:0"  name="s.ho" value="f"> Incluir resultados ajenos a las colecciones de la instituci&oacute;n<br>
+</form>
+        </div>
+	
+		</div>
+ 
+        <!--<div id="tab4" class="tab">
+
+<div class="searchbox">
+
+<form action="http://conricytudg.summon.serialssolutions.com/search" target="_blank"> <input name="s.fvf[]" value="SourceType,Library Catalog,f" type="hidden">
+<input type="text" style="width:80%" name="s.q" onfocus="this.value='';" value="" size="25" placeholder="search the library catalog (mainly print items)">
+<input type="submit" value="Buscar"><br>
+<p style="text-align:right; margin-right:10px; color:#CCCCCC"><a href="http://conricytudg.summon.serialssolutions.com/#!/advanced" style="color:#CCCCCC">Advanced Search</a></p>
+</form>
+
+
+</div>
+
+    </div>-->
+    
+    <div id="tab5" class="tab" style="padding:10px">
+   <table cellpadding="15px">
+   <tr>
+   <td width="300px"  valign="top" style="background-color:#fff">
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 1</a>
+   </td>
+   <td width="300px"  valign="top" style="background-color:#fff" >
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 2</a>
+   </td>
+   <td width="300px"  valign="top" style="background-color:#fff" >
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 3</a>
+   </td>
+   </tr>
+    <tr>
+   <td width="300px" height="38px"  valign="top" style="background-color:#fff">
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 4</a>
+   </td>
+   <td width="300px"  valign="top" style="background-color:#fff" >
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 5</a>
+   </td>
+   <td width="300px"  valign="top" style="background-color:#fff" >
+   <a href= "URL aquí" style='color:#000;font-size:12px'>Ejemplo 6</a>
+   </td>
+   </table>
+   
+ 
+	
+		</div>
+</div>
+</div>
+<!--content--><!--</div>-->
+<!--wrapper--><!--</div>-->
+</html>
